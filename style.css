@@ -812,11 +812,14 @@ svg:not(:root) {
             width: 40px;
             height: 40px;
             border-radius: 50%;
-            background-color: #333;
+            background-color: #111;
+            color: white
+            ;
             display: flex;
             align-items: center;
             justify-content: center;
             transition: background-color 0.2s;
+            text-decoration: none;
         }
 
         .social-icon:hover {
